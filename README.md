@@ -1,4 +1,4 @@
-# Tork Add-ons for Home Assistant
+# Add-ons for Home Assistant (Tork++)
 
 ## Install
 
