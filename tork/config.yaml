@@ -1,5 +1,5 @@
 name: Tork
-version: "0.1.0"
+version: "0.1.1"
 slug: tork
 description: Torznab indexer with Web TUI, for use with Radarr/Sonarr
 url: https://github.com/YOUR_GITHUB_USER/ha-addons/tree/main/tork

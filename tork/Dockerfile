@@ -5,8 +5,8 @@
 ARG TORK_IMAGE=tranphuongbinh/tork
 FROM ${TORK_IMAGE}
 
-# Root avoids permission problems on the root-owned /config (addon_config) mount.
-# Change to 1000/1000 if the image handles ownership itself.
-ENV PUID=0 \
-    PGID=0 \
+# Do not use 0/0: the image's startup script creates a group/user from these
+# values and fails with "addgroup: gid '0' in use" because gid 0 is root's.
+ENV PUID=1000 \
+    PGID=1000 \
     TZ=Asia/Ho_Chi_Minh

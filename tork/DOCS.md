@@ -30,5 +30,9 @@ add-ons under `addon_configs`). It is included in Home Assistant backups.
   has no build for your CPU architecture. Edit `TORK_IMAGE` in the `Dockerfile`
   (or check `docker buildx imagetools inspect <image>` for `linux/amd64`
   and `linux/arm64`), then bump `version` in `config.yaml`.
-- **Permission denied on /config:** keep `PUID=0` / `PGID=0` in the `Dockerfile`.
+- **`addgroup: gid '0' in use` at startup:** `PUID` / `PGID` in the `Dockerfile`
+  must not be `0` (root's id). Keep them at `1000`.
+- **Permission denied on /config:** the add-on config folder is created by
+  Home Assistant, so check the add-on **Log** to see whether the image can
+  take ownership of it.
 - Always check the add-on **Log** tab first.
