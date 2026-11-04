@@ -1,0 +1,25 @@
+name: Tork
+version: "0.1.0"
+slug: tork
+description: Torznab indexer with Web TUI, for use with Radarr/Sonarr
+url: https://github.com/YOUR_GITHUB_USER/ha-addons/tree/main/tork
+arch:
+  - aarch64
+  - amd64
+startup: services
+boot: auto
+# The upstream image may ship its own init (s6-overlay); do not inject Docker's init.
+init: false
+ports:
+  7681/tcp: 7681
+  7682/tcp: 7682
+ports_description:
+  7681/tcp: Web TUI
+  7682/tcp: Torznab API (use http://<HA-host-IP>:7682 with API path /api in Radarr/Sonarr)
+webui: "http://[HOST]:[PORT:7681]"
+# Mounted at /config inside the container, so Tork's /config/.tork
+# ends up in /addon_configs/<id>_tork/.tork on the host.
+map:
+  - addon_config:rw
+options: {}
+schema: {}
