@@ -3,7 +3,7 @@
 ## Install
 
 1. Open **Settings → Add-ons (Apps) → Add-on Store → ⋮ → Repositories**.
-2. Add this repository URL: `https://github.com/YOUR_GITHUB_USER/ha-addons`
+2. Add this repository URL: `https://github.com/binhtph/ha-addons`
 3. Find **Tork** in the store, install it and start it.
 
 ## Add-ons
