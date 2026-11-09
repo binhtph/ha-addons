@@ -1,4 +1,4 @@
-# Add-ons for Home Assistant (Tork++)
+# Add-ons for Home Assistant
 
 ## Install
 
@@ -9,6 +9,8 @@
 ## Add-ons
 
 - [Tork](tork/) — Torznab indexer with Web TUI for Radarr/Sonarr.
+- [YouTube Music Lite](youtube_cast_addon/) — Addon phát nhạc YouTube dành cho Home Assistant.
+
 
 ## Updating
 

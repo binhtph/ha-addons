@@ -1,0 +1,27 @@
+name: "YouTube Music Lite"
+description: "Trình phát YouTube Music nhẹ, tối ưu điện thoại và relay ổn định tới loa Home Assistant"
+version: "2.4.0"
+slug: "youtube_cast_addon"
+arch:
+  - amd64
+  - aarch64
+init: false
+panel_icon: "mdi:music-note"
+panel_title: "Music Lite"
+panel_admin: false
+ingress: true
+ingress_port: 2232
+ingress_stream: true
+homeassistant_api: true
+hassio_api: true
+watchdog: "http://[HOST]:[PORT:2232]/api/health"
+ports:
+  2232/tcp: 2232
+ports_description:
+  2232/tcp: "Audio relay cho loa trong mạng LAN"
+options:
+  media_base_url: ""
+schema:
+  media_base_url: str
+image: "ghcr.io/binhtph/youtube_cast_addon"
+url: "https://github.com/binhtph/ha-addons/tree/main/youtube_cast_addon"
