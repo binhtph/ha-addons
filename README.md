@@ -10,6 +10,7 @@
 
 - [Tork](tork/) — Torznab indexer with Web TUI for Radarr/Sonarr.
 - [YouTube Music Lite](youtube_cast_addon/) — Addon phát nhạc YouTube dành cho Home Assistant.
+- [IRIS Face Recognition](facedetect/) — Nhận diện khuôn mặt local bằng InsightFace (image `ghcr.io/binhtph/facedetect`).
 
 
 ## Updating
