@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4 - 2026-11-11
+
+- Pin image to `ghcr.io/binhtph/facedetect:1.0.4` instead of `latest`.
+
 ## 1.0.3 - 2026-11-11
 
 - Use image `ghcr.io/binhtph/facedetect:latest`.
