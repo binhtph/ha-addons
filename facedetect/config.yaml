@@ -1,5 +1,5 @@
 name: IRIS Face Recognition
-version: "1.0.2"
+version: "1.0.3"
 slug: iris_face_recognition
 description: Local face recognition for Home Assistant using IRIS/InsightFace
 url: https://github.com/anhnvme/facedetect

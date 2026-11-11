@@ -4,7 +4,7 @@
 
 ## Tiếng Việt
 
-Home Assistant OS add-on cho `ghcr.io/binhtph/facedetect:sha-541d751`.
+Home Assistant OS add-on cho `ghcr.io/binhtph/facedetect:latest`.
 
 IRIS nhận diện khuôn mặt local bằng InsightFace. Dữ liệu được lưu trên máy Home Assistant.
 
@@ -48,7 +48,7 @@ InsightFace pretrained models có thể bị giới hạn cho mục đích nghi�
 
 ## English
 
-Home Assistant OS add-on wrapper for `ghcr.io/binhtph/facedetect:sha-541d751`.
+Home Assistant OS add-on wrapper for `ghcr.io/binhtph/facedetect:latest`.
 
 IRIS runs local face recognition with InsightFace. Data stays on the Home Assistant machine.
 

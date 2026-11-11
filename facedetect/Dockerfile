@@ -1,4 +1,4 @@
-FROM ghcr.io/binhtph/facedetect:sha-541d751
+FROM ghcr.io/binhtph/facedetect:latest
 
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
