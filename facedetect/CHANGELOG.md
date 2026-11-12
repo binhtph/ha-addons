@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.1 - 2026-11-12
+
+- Image `ghcr.io/binhtph/facedetect:2.0.1`.
+- Test page: new switch *Send to Home Assistant & Telegram* (off by default). Test uploads no longer show up in Home Assistant later when IRIS republishes its state.
+
 ## 2.0.0 - 2026-11-12
 
 - Image `ghcr.io/binhtph/facedetect:2.0.0`.
