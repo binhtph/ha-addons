@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.0 - 2026-11-12
+
+- Image `ghcr.io/binhtph/facedetect:2.0.0`.
+- IRIS in the Home Assistant sidebar (ingress), behind Home Assistant's login.
+- MQTT: one persistent connection with Last Will; entities come back by themselves after IRIS, broker or Home Assistant restarts.
+- Recognize several faces per image (Settings → Faces per image).
+- New Analytics and MQTT Monitor pages.
+
 ## 1.0.4 - 2026-11-11
 
 - Pin image to `ghcr.io/binhtph/facedetect:1.0.4` instead of `latest`.

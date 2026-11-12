@@ -1,5 +1,5 @@
 name: IRIS Face Recognition
-version: "1.0.4"
+version: "2.0.0"
 slug: iris_face_recognition
 description: Local face recognition for Home Assistant using IRIS/InsightFace
 url: https://github.com/anhnvme/facedetect
@@ -9,12 +9,14 @@ arch:
 startup: services
 boot: auto
 init: false
-ingress: false
-webui: http://[HOST]:[PORT:80]
+ingress: true
+ingress_port: 80
+panel_icon: mdi:face-recognition
+panel_title: IRIS
 ports:
   80/tcp: 8080
 ports_description:
-  80/tcp: IRIS web UI and API
+  80/tcp: Direct web UI and API access (no login; the sidebar panel works without it)
 map:
   - type: homeassistant_config
     read_only: false
