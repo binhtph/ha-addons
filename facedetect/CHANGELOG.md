@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.2 - 2026-11-16
+
+- Image `ghcr.io/binhtph/facedetect:2.0.2`, digest `sha256:4a8bb1c03a5d83773514924b8d448a1f42a39136111f0473143666677fb369d0`
+- Source: binhtph/facedetect@e4a4d84
+
 ## 2.0.1 - 2026-11-12
 
 - Image `ghcr.io/binhtph/facedetect:2.0.1`.
